@@ -3,17 +3,17 @@
 // =====================
 
 // sass version
-@mixin foo($opacity: null) {
+@mixin background($opacity: null) {
   background-color: #666666;
   opacity: $opacity;
 }
 
 hero-background {
-  @include foo();
+  @include backgrounds();
 }
 
 footer-background {
-  @include foo(0.6);
+  @include background(0.6);
 }
 
 // css counterpart
