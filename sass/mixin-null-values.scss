@@ -2,7 +2,7 @@
 // NULL VALUES IN MIXINS
 // =====================
 
-// sass version
+// sass version [null argument?]
 @mixin background($opacity: null) {
   background-color: #666666;
   opacity: $opacity;
