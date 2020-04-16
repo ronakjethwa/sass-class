@@ -1,0 +1,27 @@
+// =====================
+// NULL VALUES IN MIXINS
+// =====================
+
+// sass version
+@mixin foo($opacity: null) {
+  background-color: #666666;
+  opacity: $opacity;
+}
+
+hero-background {
+  @include foo();
+}
+
+footer-background {
+  @include foo(0.6);
+}
+
+// css counterpart
+hero-background {
+  background-color: #666666;
+}
+
+footer-background {
+  background-color: #666666;
+  opacity: 0.6;
+}
