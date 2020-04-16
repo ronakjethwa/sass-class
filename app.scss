@@ -1,0 +1,31 @@
+// ============================
+// PARENT SELECTOR EXAMPLES (&)
+// ============================
+
+// sass version
+.navigator {
+  &.right-nav {
+    color: #666666;
+  }
+}
+
+// css counterpart
+.navigator .right-nav {
+  color: #666666;
+}
+
+// -------------------------------------------------------------------------------------------
+
+// sass version
+.navigator {
+  .right-nav & {
+    color: #4a4a4a;
+  }
+}
+
+// css counterpart
+.right-nav .navigator {
+  color: #4a4a4a;
+}
+
+// -------------------------------------------------------------------------------------------
