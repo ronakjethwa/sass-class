@@ -6,4 +6,5 @@ Examples include how the most under utilized sass examples look like, and what t
 
 ### Contents
 
-* Parent Selectors
+* Parent Selector
+* Default Selector
