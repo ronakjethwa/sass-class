@@ -4,5 +4,4 @@ Sass Class contains minor things that we tend to forget, mix up or always search
 
 ### Contents
 
-* Parent Selectors Usages
-* 
+* Parent Selectors
