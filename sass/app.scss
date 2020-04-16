@@ -10,7 +10,7 @@
 }
 
 // css counterpart
-.navigator .right-nav {
+.navigator.right-nav {
   color: #666666;
 }
 
@@ -29,3 +29,23 @@
 }
 
 // -------------------------------------------------------------------------------------------
+
+// sass version - psuedo parent selector
+.button {
+  background-color: #000000;
+  color: #ffffff;
+  &:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+// css counterpart
+.button {
+  background-color: #000000;
+  color: #ffffff;
+}
+.button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
