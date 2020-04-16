@@ -16,6 +16,18 @@
 
 // -------------------------------------------------------------------------------------------
 
+// sass version [space matters, look closely!]
+.navigator {
+  & .right-nav {
+    color: #666666;
+  }
+}
+
+// css counterpart
+.navigator .right-nav {
+  color: #666666;
+}
+
 // sass version
 .navigator {
   .right-nav & {
