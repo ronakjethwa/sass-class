@@ -1,0 +1,56 @@
+// ===============================
+// DYNANIC CSS CLASSES USING LISTS
+// ===============================
+
+// sass version [iterating lists]
+$font-sizes: 20px, 22px, 24px, 26px, 28px, 30px, 36px, 40px, 50px;
+
+@each $size in $font-sizes {
+  .is-#{$size} {
+    font-size: $size;
+
+    @if $size > 35 {
+      line-height: $size - 5px;
+    }
+  }
+}
+
+// css counterpart
+.is-20px {
+  font-size: 20px;
+}
+
+.is-22px {
+  font-size: 22px;
+}
+
+.is-24px {
+  font-size: 24px;
+}
+
+.is-26px {
+  font-size: 26px;
+}
+
+.is-28px {
+  font-size: 28px;
+}
+
+.is-30px {
+  font-size: 30px;
+}
+
+.is-36px {
+  font-size: 36px;
+  line-height: 31px;
+}
+
+.is-40px {
+  font-size: 40px;
+  line-height: 35px;
+}
+
+.is-50px {
+  font-size: 50px;
+  line-height: 45px;
+}
