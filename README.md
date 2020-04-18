@@ -9,3 +9,4 @@ Examples are included for most under utilized sass features that I came across, 
 * Parent Selector
 * Default Selector
 * Mixin Null Arguments
+* Dynamic CSS Classes Using Lists
