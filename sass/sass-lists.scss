@@ -1,8 +1,7 @@
 // ===============================
 // DYNANIC CSS CLASSES USING LISTS
 // ===============================
-
-$font-sizes: (20px, 22px, 24px, 26px, 28px, 30px, 36px, 40px, 50px);
+$font-sizes: [20px, 22px, 24px, 26px, 28px, 30px, 36px, 40px, 50px];
 @each $size in $font-sizes {
   .is-#{$size} {
     font-size: $size;
